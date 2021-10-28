@@ -1,0 +1,19 @@
+{
+  "name": "octaba-vet-mock-server",
+  "version": "0.0.0",
+  "description": "Servidor d'exemple per provar les crides API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "560186+krosk93@users.noreply.github.com",
+  "license": "WTFPL",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-oauth2-jwt-bearer": "^1.0.0",
+    "ngrok": "^4.2.2"
+  }
+}
